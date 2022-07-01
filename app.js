@@ -34,7 +34,7 @@ function printCards(data){
         cardContainer.innerHTML+=html
     }
     let getHtml  = cardContainer.innerHTML
-    cardContainer.innerHTML=`<h3>We found ${count} universities in ${countryName}</h3>` +getHtml
+    cardContainer.innerHTML=`<h3>We have found ${count} universities in ${countryName}</h3>` +getHtml
 }
 
 
