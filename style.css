@@ -1,0 +1,45 @@
+.center {
+    width: 80%;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+}
+
+.card {
+    width: 350px;
+    height: 200px;
+}
+
+.spin {
+    position: absolute;
+    margin-top: 5rem;
+    left: 50%;
+    border-width: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+@media (max-width:1200px) {
+    .center {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:700px) {
+    .center {
+        grid-template-columns: 1fr;
+    }
+}
+
+.our-card {
+    width: 100%;
+}
+
+.our-card-inner {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
